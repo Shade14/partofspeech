@@ -10,14 +10,14 @@ Examples of part of speech: (noun, verb, adjective, ...)
 A simple quiz app that gives you 10 different words, one at a time and you should choose the correct answer regarading the part of speech of the word,
 then score is calculated and returns your rank across an array of scores. No database used. All data comes from a JSON file.
 
-This app was built using:
-for client side:
+This app was built using:<br />
+For client side:
 [react](https://reactjs.org/), [react-router](https://reactrouter.com/en/main) & [@reduxjs/toolkit](https://redux-toolkit.js.org/) 
-following [eslint-config-airbnb](https://github.com/airbnb/javascript) syntax
+following [eslint-config-airbnb](https://github.com/airbnb/javascript) syntax.
 
-for server side:
-[node](https://nodejs.org/en/)
-[express](https://expressjs.com/)
+For server side:
+[node](https://nodejs.org/en/) & [express](https://expressjs.com/).
+
 
 ## Usage
 
