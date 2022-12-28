@@ -10,8 +10,8 @@ Examples of part of speech: (noun, verb, adjective, ...)
 A simple quiz app that gives you 10 different words, one at a time and you should choose the correct answer regarading the part of speech of the word,
 then score is calculated and returns your rank across an array of scores. No database used. All data comes from a JSON file.
 
-This app was built using:
-<br />
+This app was built using: <br />
+
 For client side:
 [react](https://reactjs.org/), [react-router](https://reactrouter.com/en/main) & [@reduxjs/toolkit](https://redux-toolkit.js.org/) 
 following [eslint-config-airbnb](https://github.com/airbnb/javascript) syntax.
@@ -29,21 +29,17 @@ You should start with the server app as the client app request data from the ser
 
 From the root directory *partofspeech*
 
-1. cd /server
-2. npm install
-
-**Now you can run the server app by using:** <br />
-3. npm run dev
+1. cd /server  <!-- the server directory -->
+2. npm install  <!-- install node_modules -->
+3. npm run dev  <!-- start the server app -->
 
 ### Client
 
 From the root directory *partofspeech*
 
-1. cd /client
-2. npm install
-
-**Now you can run the client app by using:** <br />
-3. npm start
+1. cd /client  <!-- the client directory -->
+2. npm install  <!-- install node_modules -->
+3. npm start  <!-- start the client app -->
 
 
 ***Enjoy the quiz***
