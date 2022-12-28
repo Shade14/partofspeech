@@ -1,0 +1,51 @@
+:root {
+  --sailorBlue: #00203FFF;
+  --mint: #ADEFD1FF;
+  --green: #5cf100;
+  --red: #f57676;
+  --seaGreen: #5b9b7e69;
+  --charcoal: #463f3f;
+  --silver: #c3c3c3;
+  --grey: #8b9590;
+}
+
+.container {
+  position: relative;
+  top: 10em;
+}
+
+.rankContainer {
+  background-color: var(--sailorBlue);
+  width: 40em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  box-shadow: 2px 2px var(--sailorBlue);
+}
+
+.rankHeader {
+  color: var(--mint);
+  font-size: 2.25rem;
+  margin: 1em;
+  word-spacing: 0.1em;
+}
+
+.btn {
+  background-color: var(--mint);
+  border: 2px solid var(--seaGreen);
+  box-shadow: 1px 1px var(--seaGreen);
+  color: var(--sailorBlue);
+  font-size: 1.25em;
+  min-width: 135px;
+  padding: 0.5em;
+  border-radius: 1em;
+  margin: 2em;
+}
+
+.btn:hover:enabled {
+  cursor: pointer;
+  background-color: var(--grey);
+}
