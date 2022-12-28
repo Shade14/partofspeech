@@ -12,9 +12,7 @@ then score is calculated and returns your rank across an array of scores. No dat
 
 This app was built using:
 for client side:
-[react](https://reactjs.org/)
-[react-router](https://reactrouter.com/en/main)
-[@reduxjs/toolkit](https://redux-toolkit.js.org/)
+[react](https://reactjs.org/), [react-router](https://reactrouter.com/en/main) & [@reduxjs/toolkit](https://redux-toolkit.js.org/) 
 following [eslint-config-airbnb](https://github.com/airbnb/javascript) syntax
 
 for server side:
