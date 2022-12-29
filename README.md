@@ -24,6 +24,7 @@ For server side:
 
 Install node_modules in both server and client directories.
 You should start with the server app as the client app request data from the server.
+You should have two terminal windows open to run both the server and client apps.
 
 ### Server
 
